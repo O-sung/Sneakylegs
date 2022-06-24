@@ -1,0 +1,91 @@
+/* @media (min-width: 1200px) {
+  html {
+    font-size: 93.75%;
+  }
+
+  header {
+    max-width: 200rem;
+  }
+
+  .hero-section {
+    max-width: 200rem;
+  }
+
+  .resaon {
+    max-width: 200rem;
+  }
+
+  .cat-sect {
+    max-width: 200rem;
+  }
+
+  .feat-sect {
+    max-width: 200rem;
+  }
+
+  .test-sect {
+    max-width: 200rem;
+  }
+
+  footer {
+    max-width: 200rem;
+  }
+} */
+
+/* THIS IS FOR 912px NOTEBOOKS*/
+
+@media (max-width: 57em) {
+  .heading-primary {
+    font-size: 5rem !important;
+  }
+
+  .h-text {
+    font-size: 1.4rem;
+  }
+}
+
+/* THIS IS FOR 832px LANDSCAPE TABLETS*/
+
+@media (max-width: 52em) {
+  html {
+    font-size: 56.25% !important;
+  }
+}
+
+/* THIS IS FOR 735px */
+
+@media (max-width: 46em) {
+  .btn-nav {
+    font-size: 1.2rem !important;
+  }
+
+  .btn-hero {
+    font-size: 1.2rem !important;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem !important;
+  }
+
+  .h-text {
+    font-size: 1.4rem !important;
+  }
+
+  .heading-secondary {
+    font-size: 1.6rem !important;
+  }
+
+  .heading-tertiary {
+    font-size: 1.2rem !important;
+  }
+
+  .fit-text,
+  .btn-ft {
+    font-size: 1.2rem !important;
+  }
+
+  /* .test-text {
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
+  } */
+}
