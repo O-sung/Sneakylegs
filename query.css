@@ -189,9 +189,74 @@
 
   .heading-secondary {
     font-size: 1.6rem !important;
+    margin-top: 2rem !important;
+  }
+
+  .why-flex {
+    flex-direction: column;
+    gap: 2.5rem !important;
   }
 
   .heading-tertiary {
-    font-size: 1.2rem !important;
+    margin-bottom: 0.8rem !important;
+    font-size: 1.1rem !important;
+  }
+
+  .category {
+    margin: 7rem 15rem !important;
+  }
+
+  .imgs-box {
+    grid-template-columns: 1fr !important;
+  }
+
+  .img-box img {
+    height: 20rem !important;
+  }
+
+  .men {
+    top: 86rem !important;
+    left: 15rem !important;
+  }
+
+  .women {
+    top: 107rem !important;
+    left: 15rem !important;
+  }
+
+  .best {
+    top: 149.5rem !important;
+    left: 15rem !important;
+  }
+
+  .new {
+    top: 128rem !important;
+    left: 15rem !important;
+  }
+
+  .ft-img-text {
+    padding: 2rem 4rem !important;
+  }
+
+  .ft-img-flex {
+    flex-direction: column !important;
+  }
+
+  .testimonials {
+    margin: 3rem 15rem !important;
+  }
+
+  .testimonies {
+    flex-direction: column !important;
+  }
+
+  .foot-content {
+    grid-template-columns: 1fr !important;
+    text-align: center;
+    gap: 2rem !important;
+  }
+
+  form {
+    justify-content: center;
   }
 }
