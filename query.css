@@ -1,10 +1,18 @@
-/* @media (min-width: 1200px) {
+@media (min-width: 1200px) {
   html {
-    font-size: 93.75%;
+    font-size: 93.75% !important;
   }
 
   header {
     max-width: 200rem;
+  }
+
+  .heading-primary {
+    font-size: 5.2rem !important;
+  }
+
+  .h-text {
+    font-size: 1.6rem !important;
   }
 
   .hero-section {
@@ -30,7 +38,7 @@
   footer {
     max-width: 200rem;
   }
-} */
+}
 
 /* THIS IS FOR 912px NOTEBOOKS*/
 
@@ -46,13 +54,33 @@
 
 /* THIS IS FOR 832px LANDSCAPE TABLETS*/
 
-@media (max-width: 52em) {
+@media (max-width: 55em) {
   html {
     font-size: 56.25% !important;
   }
+
+  .men {
+    top: 95rem !important;
+    left: 5rem !important;
+  }
+
+  .women {
+    top: 95rem !important;
+    right: 35.5rem !important;
+  }
+
+  .best {
+    top: 121rem !important;
+    left: 5rem !important;
+  }
+
+  .new {
+    top: 121rem !important;
+    right: 35.5rem !important;
+  }
 }
 
-/* THIS IS FOR 735px */
+/* THIS IS FOR 736px FOR LANDSCAPE PHONES*/
 
 @media (max-width: 46em) {
   .btn-nav {
@@ -79,13 +107,91 @@
     font-size: 1.2rem !important;
   }
 
+  .men {
+    top: 91rem !important;
+    left: 5rem !important;
+  }
+
+  .women {
+    top: 91rem !important;
+    right: 28rem !important;
+  }
+
+  .best {
+    top: 117rem !important;
+    left: 5rem !important;
+  }
+
+  .new {
+    top: 117rem !important;
+    right: 28rem !important;
+  }
+
   .fit-text,
   .btn-ft {
     font-size: 1.2rem !important;
   }
 
-  /* .test-text {
+  .testimonies {
+    text-align: center;
+  }
+
+  .identity {
+    flex-direction: column;
+  }
+
+  .test-name {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .test-text {
     font-size: 1.2rem !important;
     font-weight: 500 !important;
-  } */
+  }
+}
+
+/* THIS IS  480px FOR PORTRAIT PHONES */
+
+@media (max-width: 30em) {
+  .hide {
+    display: none !important;
+  }
+
+  .search {
+    display: none !important;
+  }
+
+  .show {
+    display: block !important;
+  }
+
+  .btn-hero {
+    font-size: 1rem !important;
+    padding: 1rem 2rem !important;
+  }
+
+  .hero-sect {
+    padding: 8rem 3rem 6rem !important;
+  }
+
+  .heading-primary {
+    font-size: 2.6rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .h-text {
+    font-size: 1.2rem !important;
+  }
+
+  .hero-text {
+    margin-bottom: 2rem !important;
+  }
+
+  .heading-secondary {
+    font-size: 1.6rem !important;
+  }
+
+  .heading-tertiary {
+    font-size: 1.2rem !important;
+  }
 }

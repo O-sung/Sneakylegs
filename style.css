@@ -94,7 +94,7 @@ header {
 }
 
 .hero-sect {
-  padding: 12.5rem 5rem 10rem;
+  padding: 12.5rem 5rem 8rem;
   width: 80%;
 }
 
@@ -398,14 +398,14 @@ footer {
 
 .foot-heading {
   color: #f5eeee;
-  font-size: 1rem;
+  font-size: 1em;
   margin-bottom: 1rem;
   margin-top: 2rem;
 }
 
 footer p {
   color: #d4cece;
-  font-size: 0.9rem;
+  font-size: 0.9em;
   line-height: 2;
 }
 
@@ -416,7 +416,7 @@ footer p {
 .foot-link:link,
 .foot-link:visited {
   color: #d4cece;
-  font-size: 0.9rem;
+  font-size: 0.9em;
   line-height: 2;
   text-decoration: none;
   transition: all 0.3s;
@@ -465,5 +465,5 @@ form {
   color: #d4cece;
   padding: 1rem;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.8em;
 }
