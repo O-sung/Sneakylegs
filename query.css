@@ -52,11 +52,11 @@
   }
 }
 
-/* THIS IS FOR 832px LANDSCAPE TABLETS*/
+/* THIS IS FOR 896px LANDSCAPE PHONES*/
 
-@media (max-width: 55em) {
+@media (max-width: 56em) {
   html {
-    font-size: 56.25% !important;
+    font-size: 57.25% !important;
   }
 
   .men {
@@ -66,7 +66,7 @@
 
   .women {
     top: 95rem !important;
-    right: 35.5rem !important;
+    right: 36rem !important;
   }
 
   .best {
@@ -76,13 +76,49 @@
 
   .new {
     top: 121rem !important;
-    right: 35.5rem !important;
+    right: 36rem !important;
+  }
+}
+
+/* THIS IS FOR 812px LANDSCAPE PHONES*/
+
+@media (max-width: 51em) {
+  .men {
+    top: 95rem !important;
+    left: 5rem !important;
+  }
+
+  .women {
+    top: 95rem !important;
+    right: 31.5rem !important;
+  }
+
+  .best {
+    top: 121rem !important;
+    left: 5rem !important;
+  }
+
+  .new {
+    top: 121rem !important;
+    right: 31.5rem !important;
   }
 }
 
 /* THIS IS FOR 736px FOR LANDSCAPE PHONES*/
 
 @media (max-width: 46em) {
+  .hide {
+    display: none !important;
+  }
+
+  .search {
+    display: none !important;
+  }
+
+  .show {
+    display: block !important;
+  }
+
   .btn-nav {
     font-size: 1.2rem !important;
   }
@@ -150,21 +186,9 @@
   }
 }
 
-/* THIS IS  480px FOR PORTRAIT PHONES */
+/* THIS IS  512px FOR PORTRAIT PHONES */
 
-@media (max-width: 30em) {
-  .hide {
-    display: none !important;
-  }
-
-  .search {
-    display: none !important;
-  }
-
-  .show {
-    display: block !important;
-  }
-
+@media (max-width: 32em) {
   .btn-hero {
     font-size: 1rem !important;
     padding: 1rem 2rem !important;
@@ -242,6 +266,10 @@
     flex-direction: column !important;
   }
 
+  .btn-ft {
+    font-size: 1rem !important;
+  }
+
   .testimonials {
     margin: 3rem 15rem !important;
   }
@@ -258,5 +286,158 @@
 
   form {
     justify-content: center;
+  }
+}
+
+/* THIS IS FOR 416px PORTRAIT SAMSUNG GALAXY S10+  */
+
+@media (max-width: 26em) {
+  header {
+    padding: 1rem 2rem !important;
+  }
+
+  .hero-sect {
+    padding-top: 7rem !important;
+  }
+
+  .heading-primary {
+    font-size: 2.4rem !important;
+    margin-bottom: 1.4rem !important;
+  }
+
+  .h-text {
+    font-size: 1.1rem !important;
+  }
+
+  .hero-text {
+    margin-bottom: 1.5rem !important;
+  }
+
+  .btn-hero {
+    font-size: 0.8rem !important;
+    padding: 0.6rem 1.5rem !important;
+  }
+
+  .heading-secondary {
+    font-size: 1.4rem !important;
+  }
+
+  .heading-tertiary {
+    font-size: 1.1rem !important;
+  }
+
+  .category {
+    margin: 7rem 12rem !important;
+  }
+
+  .img-box img {
+    height: 18rem !important;
+  }
+
+  .cat-links {
+    width: 10rem !important;
+    padding: 1rem 0 !important;
+    font-size: 1rem !important;
+    font-weight: 550 !important;
+  }
+
+  .men {
+    top: 80.5rem !important;
+    left: 12rem !important;
+  }
+
+  .women {
+    top: 100rem !important;
+    left: 12rem !important;
+  }
+
+  .best {
+    top: 138rem !important;
+    left: 12rem !important;
+  }
+
+  .new {
+    top: 119rem !important;
+    left: 12rem !important;
+  }
+
+  .btn-buy {
+    padding: 1rem 2rem !important;
+  }
+
+  .btn-add {
+    padding: 1rem !important;
+  }
+
+  .testimonials {
+    margin: 3rem 12rem !important;
+  }
+}
+
+/* THIS IS FOR 376px PORTRAIT IPHONE X */
+
+@media (max-width: 23.5em) {
+  .hero-sect {
+    padding-top: 5rem !important;
+  }
+
+  .heading-primary {
+    font-size: 2.3rem !important;
+    margin-bottom: 1.4rem !important;
+  }
+
+  .h-text {
+    font-size: 1rem !important;
+  }
+
+  .heading-secondary {
+    font-size: 1.3rem !important;
+  }
+
+  .heading-tertiary {
+    font-size: 1.1rem !important;
+  }
+
+  .img-box img {
+    height: 15rem !important;
+  }
+
+  .men {
+    top: 75rem !important;
+  }
+
+  .women {
+    top: 91rem !important;
+  }
+
+  .best {
+    top: 123.5rem !important;
+  }
+
+  .new {
+    top: 107.3rem !important;
+  }
+
+  .btn-buy {
+    padding: 1rem 1.5rem !important;
+  }
+
+  .btn-add {
+    padding: 0.8rem !important;
+  }
+
+  .testimonials {
+    margin: 3rem 10rem !important;
+  }
+}
+
+/* THIS IS 360px FOR SAMSUNG GALAXY S8 */
+@media (max-width: 22.5em) {
+  .heading-primary {
+    margin-bottom: 1rem !important;
+  }
+
+  .hero-text {
+    margin-bottom: 1rem !important;
   }
 }
