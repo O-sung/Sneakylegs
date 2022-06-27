@@ -59,6 +59,18 @@
     font-size: 57.25% !important;
   }
 
+  .hide {
+    display: none !important;
+  }
+
+  .search {
+    display: none !important;
+  }
+
+  .show {
+    display: block !important;
+  }
+
   .men {
     top: 95rem !important;
     left: 5rem !important;
@@ -107,18 +119,6 @@
 /* THIS IS FOR 736px FOR LANDSCAPE PHONES*/
 
 @media (max-width: 46em) {
-  .hide {
-    display: none !important;
-  }
-
-  .search {
-    display: none !important;
-  }
-
-  .show {
-    display: block !important;
-  }
-
   .btn-nav {
     font-size: 1.2rem !important;
   }
@@ -301,12 +301,17 @@
   }
 
   .heading-primary {
-    font-size: 2.4rem !important;
-    margin-bottom: 1.4rem !important;
+    font-size: 2.2rem !important;
+    margin-bottom: 1.2rem !important;
+  }
+
+  .hero-text {
+    width: 100% !important;
   }
 
   .h-text {
     font-size: 1.1rem !important;
+    font-weight: 600 !important;
   }
 
   .hero-text {
@@ -342,22 +347,22 @@
   }
 
   .men {
-    top: 80.5rem !important;
+    top: 80rem !important;
     left: 12rem !important;
   }
 
   .women {
-    top: 100rem !important;
+    top: 99rem !important;
     left: 12rem !important;
   }
 
   .best {
-    top: 138rem !important;
+    top: 137rem !important;
     left: 12rem !important;
   }
 
   .new {
-    top: 119rem !important;
+    top: 118rem !important;
     left: 12rem !important;
   }
 
@@ -384,6 +389,10 @@
   .heading-primary {
     font-size: 2.3rem !important;
     margin-bottom: 1.4rem !important;
+  }
+
+  .hero-text {
+    margin-bottom: 1rem !important;
   }
 
   .h-text {
@@ -434,10 +443,6 @@
 /* THIS IS 360px FOR SAMSUNG GALAXY S8 */
 @media (max-width: 22.5em) {
   .heading-primary {
-    margin-bottom: 1rem !important;
-  }
-
-  .hero-text {
     margin-bottom: 1rem !important;
   }
 }
