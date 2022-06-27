@@ -48,7 +48,8 @@
   }
 
   .h-text {
-    font-size: 1.4rem;
+    font-size: 1.4rem !important;
+    font-weight: 600 !important;
   }
 }
 
