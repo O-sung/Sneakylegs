@@ -312,7 +312,7 @@
 
   .h-text {
     font-size: 1.1rem !important;
-    font-weight: 600 !important;
+    font-weight: 580 !important;
   }
 
   .hero-text {
@@ -348,22 +348,22 @@
   }
 
   .men {
-    top: 65rem !important;
+    top: 68rem !important;
     left: 12rem !important;
   }
 
   .women {
-    top: 82rem !important;
+    top: 85rem !important;
     left: 12rem !important;
   }
 
   .best {
-    top: 122rem !important;
+    top: 125rem !important;
     left: 12rem !important;
   }
 
   .new {
-    top: 100rem !important;
+    top: 105rem !important;
     left: 12rem !important;
   }
 
@@ -377,6 +377,10 @@
 
   .testimonials {
     margin: 3rem 12rem !important;
+  }
+
+  .testimonies {
+    gap: 3rem !important;
   }
 }
 
